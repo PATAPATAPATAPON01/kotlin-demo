@@ -136,12 +136,12 @@ fun testArray() {
 
     val text = """
 
- |多行字符串
-    |菜鸟教程
-    |多行字符串
-    |Runoob
+ -多行字符串
+    -菜鸟教程
+    -多行字符串
+    -Runoob
 """
-    println(text.trimMargin())
+    println(text.trimMargin("-"))
 }
 
 public fun fewfwe(): Int = 1
